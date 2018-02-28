@@ -1,0 +1,14 @@
+{
+    "name": "redefinelab/redadmin",
+    "description": "a simple admin template",
+    "license": "MIT",
+    "keywords": ["bootstrap", "admin", "template", "responsive"],
+    "authors": [
+        {
+            "name": "Redefinelab Ltd",
+            "email": "redefinelab71@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

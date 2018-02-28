@@ -1,6 +1,6 @@
 {
   "name": "redadmin",
-  "version": "1.0.0-dev-1",
+  "version": "1.0.0-dev-2",
   "description": "admin panel template",
   "main": "dist/js/app.js",
   "scripts": {
