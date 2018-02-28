@@ -23,7 +23,7 @@
     "responsive"
   ],
   "author": "Redefinelab Ltd <redefinelab71@gmail.com> (http://www.redefinelab.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/redefinelabltd/redadmin/issues"
   },
