@@ -1,0 +1,40 @@
+{
+  "name": "redadmin",
+  "version": "1.0.0-dev-1",
+  "description": "admin panel template",
+  "main": "dist/js/app.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redefinelabltd/redadmin.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "admin",
+    "template",
+    "responsive"
+  ],
+  "author": "Redefinelab Ltd <redefinelab71@gmail.com> (http://www.redefinelab.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redefinelabltd/redadmin/issues"
+  },
+  "homepage": "https://github.com/redefinelabltd/redadmin#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "cross-env": "^5.1.3",
+    "laravel-mix": "^2.0.0",
+    "popper.js": "^1.12.9"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
