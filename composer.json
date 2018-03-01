@@ -15,5 +15,12 @@
         "psr-4": {
             "Redefinelabltd\\Redadmin\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Redefinelabltd\\Redadmin\\RedAdminServiceProvider"
+            ]
+        }
     }
 }
