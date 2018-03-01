@@ -1,6 +1,6 @@
 # REDADMIN
 
-A simple admin template made with  by REDEFINELAB LTD (http://www.redefinelab.com)
+A simple admin template made with &#10084; by REDEFINELAB LTD (http://www.redefinelab.com)
 
 ## INSTALLATION INSTRUCTION
 
