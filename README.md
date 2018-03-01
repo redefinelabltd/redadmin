@@ -24,22 +24,23 @@ require('redadmin');
 @import '~redadmin/dist/css/app';
 ```
 
-### COMPOSER
+### COMPOSER (LARAVEL)
 
 ```bash
 composer require redefinelabltd/redadmin
+php artisan vendor:publish --tag=config
 ```
 
 #### SETUP
 
 #### javascript
 
-```javascript
-require('redadmin');
+```html
+<script type="text/javascript" src="{{url('vendor/redadmin/js/app.js')}}"></script>
 ```
 
 #### css
 
-```sass
-@import '~redadmin/dist/css/app';
+```html
+<link href="{{url('vendor/redadmin/css/app.css')}}" rel="stylesheet" type="text/css">
 ```
