@@ -1,6 +1,6 @@
 # REDADMIN
 
-A simple admin panel made by REDEFINELAB LTD (http://www.redefinelab.com)
+A simple admin template made with  by REDEFINELAB LTD (http://www.redefinelab.com)
 
 ## INSTALLATION INSTRUCTION
 

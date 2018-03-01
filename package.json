@@ -1,7 +1,7 @@
 {
   "name": "redadmin",
-  "version": "1.0.0-dev-2",
-  "description": "admin panel template",
+  "version": "1.0.0-dev-3",
+  "description": "a simple admin template",
   "main": "dist/js/app.js",
   "scripts": {
     "dev": "npm run development",
