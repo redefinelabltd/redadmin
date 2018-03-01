@@ -1,5 +1,5 @@
 <?php
-namespace Redadmin;
+namespace Redefinelabltd\Redadmin;
 
 use Illuminate\Support\ServiceProvider;
 
