@@ -8,7 +8,7 @@ class RedAdminServiceProvider extends ServiceProvider
 	public function boot()
 	{
 	    $this->publishes([
-		    __DIR__.'/dist' => public_path('vendor/redadmin'),
+		    __DIR__.'/../dist' => public_path('vendor/redadmin'),
 		], 'public');
 	}
 }
