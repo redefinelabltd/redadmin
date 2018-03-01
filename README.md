@@ -27,7 +27,7 @@ require('redadmin');
 ### COMPOSER
 
 ```bash
-npm install redadmin --save-dev
+composer require redefinelabltd/redadmin
 ```
 
 #### SETUP
