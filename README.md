@@ -28,7 +28,7 @@ require('redadmin');
 
 ```bash
 composer require redefinelabltd/redadmin
-php artisan vendor:publish --tag=config
+php artisan vendor:publish --tag=public
 ```
 
 #### SETUP
