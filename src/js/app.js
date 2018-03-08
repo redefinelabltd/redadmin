@@ -1,12 +1,5 @@
 require('./bootstrap');
 
-google.charts.load('current', {'packages':['corechart']});
-if($('#chart_div').length > 0){
-	google.charts.setOnLoadCallback(drawVisualization);
-}
-if($('#piechart').length > 0){
-	google.charts.setOnLoadCallback(drawChart);
-}
 
 function drawVisualization() {
     // Some raw data (not necessarily accurate)
@@ -53,4 +46,12 @@ function drawChart() {
 
 $(document).ready(function(){
 	$('#datatable').DataTable();
+	
+	google.charts.load('current', {'packages':['corechart']});
+	if($('#chart_div').length > 0){
+		google.charts.setOnLoadCallback(drawVisualization);
+	}
+	if($('#piechart').length > 0){
+		google.charts.setOnLoadCallback(drawChart);
+	}
 });
